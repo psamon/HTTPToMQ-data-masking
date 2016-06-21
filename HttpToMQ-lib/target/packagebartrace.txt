@@ -1,0 +1,897 @@
+2016-06-10 15:58:22.0653 main........... i: Message Flow API - Basic Information:
+System CLASSPATH = /opt/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar
+System OS Name = Linux
+System OS Architecture = amd64
+System OS Version = 3.10.0-327.el7.x86_64
+System JRE Version = 1.7.0
+System JRE Vendor = IBM Corporation
+Message Flow API Version = 80
+Message Flow API SCCS Version = %W% %I%
+com.ibm.broker.config.appdev.MessageFlow loaded from file:/root/.m2/repository/com/ibm/broker/config/proxy/IntegrationAPI/10.0.0.4/IntegrationAPI-10.0.0.4.jar!/com/ibm/broker/config/appdev/MessageFlow.class
+com.ibm.broker.config.appdev.FlowRendererMSGFLOW loaded from file:/root/.m2/repository/com/ibm/broker/config/proxy/IntegrationAPI/10.0.0.4/IntegrationAPI-10.0.0.4.jar!/com/ibm/broker/config/appdev/FlowRendererMSGFLOW.class
+com.ibm.broker.config.appdev.FlowRendererBAR loaded from file:/root/.m2/repository/com/ibm/broker/config/proxy/IntegrationAPI/10.0.0.4/IntegrationAPI-10.0.0.4.jar!/com/ibm/broker/config/appdev/FlowRendererBAR.class
+com.ibm.broker.config.appdev.FlowRendererCMF loaded from file:/root/.m2/repository/com/ibm/broker/config/proxy/IntegrationAPI/10.0.0.4/IntegrationAPI-10.0.0.4.jar!/com/ibm/broker/config/appdev/FlowRendererCMF.class
+com.ibm.broker.config.proxy.BrokerProxy loaded from file:/root/.m2/repository/com/ibm/broker/config/proxy/IntegrationAPI/10.0.0.4/IntegrationAPI-10.0.0.4.jar!/com/ibm/broker/config/proxy/BrokerProxy.class
+com.ibm.broker.config.common.UUIDHelper loaded from file:/root/.m2/repository/com/ibm/broker/config/proxy/IntegrationAPI/10.0.0.4/IntegrationAPI-10.0.0.4.jar!/com/ibm/broker/config/common/UUIDHelper.class
+com.ibm.broker.config.util.ParameterList not found in CLASSPATH.
+com.ibm.mq.MQEnvironment not found in CLASSPATH.
+java.lang.System loaded from file:/root/IIB/iib-10.0.0.4/common/jdk/jre/lib/amd64/compressedrefs/jclSC170/vm.jar!/java/lang/System.class
+2016-06-10 15:58:22.0661 main........... i: com.ibm.broker.LoggerFile instantiated
+2016-06-10 15:58:22.0662 main........... { com.ibm.broker.config.appdev.CommandProcessor.packageBAR(/root/git/HttpToMQ-parent/HttpToMQ-lib/.., /root/git/HttpToMQ-parent/HttpToMQ-lib/target/HttpToMQ-lib-0.0.0.1-SNAPSHOT.bar, [], [HttpToMQ-lib], [], [], 
+2016-06-10 15:58:22.0662 main...........   i: Include source - /root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-lib
+2016-06-10 15:58:22.0663 main...........   { com.ibm.broker.config.appdev.FlowRendererBAR.write(/root/git/HttpToMQ-parent/HttpToMQ-lib/.., [HttpToMQ-lib], /root/git/HttpToMQ-parent/HttpToMQ-lib/target, false, 
+2016-06-10 15:58:22.0665 main...........     { com.ibm.broker.config.appdev.FlowRendererInternalBAR.write(/root/git/HttpToMQ-parent/HttpToMQ-lib/.., [HttpToMQ-lib], /root/git/HttpToMQ-parent/HttpToMQ-lib/target, HttpToMQ-lib-0.0.0.1-SNAPSHOT.bar, true, 0, false, 
+2016-06-10 15:58:22.0667 main...........       { com.ibm.broker.config.appdev.BARUtil.setIncludeAllArtifacts(false, 
+2016-06-10 15:58:22.0667 main...........       } com.ibm.broker.config.appdev.BARUtil.setIncludeAllArtifacts()
+2016-06-10 15:58:22.0667 main...........       { com.ibm.broker.config.appdev.FlowRendererInternalBAR.toInputStream([HttpToMQ-lib], null, true, 0, 
+2016-06-10 15:58:22.0668 main...........         { com.ibm.broker.config.appdev.FlowRendererInternalBAR.toByteArray(/root/git/HttpToMQ-parent/HttpToMQ-lib/.., [HttpToMQ-lib], null, true, 0, 
+2016-06-10 15:58:22.0669 main...........           { com.ibm.broker.config.appdev.FlowRendererInternalBAR.zipDirectory(/root/git/HttpToMQ-parent/HttpToMQ-lib/.., HttpToMQ-lib, true, java.util.zip.ZipOutputStream@2edd4d93, 
+2016-06-10 15:58:22.0670 main...........             { com.ibm.broker.config.appdev.BARUtil.zipEntryExists(java.util.zip.ZipOutputStream@2edd4d93, HttpToMQ-lib, 
+2016-06-10 15:58:22.0670 main...........             } com.ibm.broker.config.appdev.BARUtil.zipEntryExists() false
+2016-06-10 15:58:22.0672 main...........             { com.ibm.broker.config.appdev.DotProject.parse(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-lib/.project, 
+2016-06-10 15:58:22.0672 main...........               { com.ibm.broker.config.appdev.BARUtil.readFileAsString(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-lib/.project, 
+2016-06-10 15:58:22.0685 main...........               } com.ibm.broker.config.appdev.BARUtil.readFileAsString() <?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HttpToMQ-lib</name>
+	<comment></comment>
+	<projects>
+		<project>HttpToMQ-java</project>
+		<project>HttpToMQ-lib</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.ibm.etools.mft.applib.applibbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.applib.applibresourcevalidator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.policy.ui.PolicyBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.ui.editor.connectorServiceBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.ui.editor.connectorEventBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.uri.sharedlibbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.applib.mbprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.msg.validation.dfdl.mlibdfdlbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.adapters.adapterbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.sca.scabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.msg.validation.dfdl.mbprojectresourcesbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.esql.lang.esqllangbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.map.builder.mslmappingbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.msgflowxsltbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.msgflowbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.decision.service.ui.decisionservicerulebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.pattern.capture.PatternBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.msg.validation.dfdl.dfdlqnamevalidator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.bar.ext.barbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.unittest.ui.TestCaseBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.json.builder.JSONBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.ibm.etools.msgbroker.tooling.libraryNature</nature>
+		<nature>com.ibm.etools.msgbroker.tooling.messageBrokerProjectNature</nature>
+		<nature>com.ibm.etools.msgbroker.tooling.sharedLibraryNature</nature>
+		<nature>com.ibm.etools.mft.bar.ext.barnature</nature>
+	</natures>
+</projectDescription>
+
+2016-06-10 15:58:23.0052 main...........               i: The .project file contains the nature: com.ibm.etools.msgbroker.tooling.libraryNature
+2016-06-10 15:58:23.0053 main...........               i: The .project file contains the nature: com.ibm.etools.msgbroker.tooling.messageBrokerProjectNature
+2016-06-10 15:58:23.0054 main...........               i: The .project file contains the nature: com.ibm.etools.msgbroker.tooling.sharedLibraryNature
+2016-06-10 15:58:23.0054 main...........               i: The .project file contains the nature: com.ibm.etools.mft.bar.ext.barnature
+2016-06-10 15:58:23.0055 main...........             } com.ibm.broker.config.appdev.DotProject.parse()
+2016-06-10 15:58:23.0058 main...........             { com.ibm.broker.config.appdev.BARInternalZip.Constructor(HttpToMQ-lib, java.util.zip.ZipOutputStream@2edd4d93, 
+2016-06-10 15:58:23.0058 main...........             } com.ibm.broker.config.appdev.BARInternalZip.Constructor()
+2016-06-10 15:58:23.0059 main...........             { com.ibm.broker.config.appdev.ShlibZip.Constructor(/root/git/HttpToMQ-parent/HttpToMQ-lib/.., HttpToMQ-lib, true, java.util.zip.ZipOutputStream@2edd4d93, 
+2016-06-10 15:58:23.0061 main...........               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[HttpToMQ-lib])
+2016-06-10 15:58:23.0061 main...........                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2016-06-10 15:58:23.0062 main...........                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0062 main...........                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0063 main...........                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0064 main...........               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0064 main...........               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'HttpToMQ-lib'., 
+2016-06-10 15:58:23.0065 main...........               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'HttpToMQ-lib'.
+2016-06-10 15:58:23.0090 main...........               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1872, inserts=null)
+2016-06-10 15:58:23.0091 main...........                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1872)
+2016-06-10 15:58:23.0091 main...........                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0092 main...........               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0092 main...........               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1872I: Shared library contents:, 
+2016-06-10 15:58:23.0093 main...........               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Shared library contents:
+2016-06-10 15:58:23.0094 main...........               { com.ibm.broker.config.appdev.BARInternalZip.handleContent(/root/git/HttpToMQ-parent/HttpToMQ-lib/.., HttpToMQ-lib, true, 
+2016-06-10 15:58:23.0095 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(project-compile.txt, 
+2016-06-10 15:58:23.0095 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0096 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(project-compile.txt, 
+2016-06-10 15:58:23.0096 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0097 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(project-compile.txt, 
+2016-06-10 15:58:23.0097 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0098 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(library.descriptor, 
+2016-06-10 15:58:23.0098 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0098 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(library.descriptor, 
+2016-06-10 15:58:23.0099 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0099 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(library.descriptor, 
+2016-06-10 15:58:23.0100 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2016-06-10 15:58:23.0100 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.zipFile(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-lib, library.descriptor, 
+2016-06-10 15:58:23.0132 main...........                   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[library.descriptor])
+2016-06-10 15:58:23.0133 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2016-06-10 15:58:23.0133 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0134 main...........                     { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0134 main...........                     } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0135 main...........                   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0135 main...........                   { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'library.descriptor'., 
+2016-06-10 15:58:23.0136 main...........                   } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'library.descriptor'.
+2016-06-10 15:58:23.0136 main...........                   i: Include artifiact - library.descriptor
+2016-06-10 15:58:23.0137 main...........                   { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@51649e86, library.descriptor, 
+2016-06-10 15:58:23.0137 main...........                   } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2016-06-10 15:58:23.0138 main...........                   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[library.descriptor])
+2016-06-10 15:58:23.0138 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2016-06-10 15:58:23.0138 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0139 main...........                     { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0139 main...........                     } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0140 main...........                   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0140 main...........                   { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'library.descriptor' to the BAR file., 
+2016-06-10 15:58:23.0140 main...........                   } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'library.descriptor' to the BAR file.
+2016-06-10 15:58:23.0142 main...........                   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.006])
+2016-06-10 15:58:23.0161 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2016-06-10 15:58:23.0162 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0162 main...........                     { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0163 main...........                     } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0163 main...........                   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0164 main...........                   { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.006' second(s)., 
+2016-06-10 15:58:23.0164 main...........                   } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.006' second(s).
+2016-06-10 15:58:23.0164 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2016-06-10 15:58:23.0165 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(.project, 
+2016-06-10 15:58:23.0165 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0165 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(.project, 
+2016-06-10 15:58:23.0166 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0166 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.project, 
+2016-06-10 15:58:23.0167 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0167 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(.project-original, 
+2016-06-10 15:58:23.0167 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0168 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(.project-original, 
+2016-06-10 15:58:23.0168 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0168 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.project-original, 
+2016-06-10 15:58:23.0169 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0169 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(pom-xml-temp.txt, 
+2016-06-10 15:58:23.0169 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0170 main...........                 { com.ibm.broker.config.appdev.BARUtil.isFlow(pom-xml-temp.txt, 
+2016-06-10 15:58:23.0170 main...........                 } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0170 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(pom-xml-temp.txt, 
+2016-06-10 15:58:23.0171 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0190 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.zipDirectory(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-lib, target, true, false, 
+2016-06-10 15:58:23.0190 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(packagebartrace.txt, 
+2016-06-10 15:58:23.0191 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0191 main...........                   { com.ibm.broker.config.appdev.BARUtil.isFlow(packagebartrace.txt, 
+2016-06-10 15:58:23.0191 main...........                   } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0192 main...........                   { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(packagebartrace.txt, 
+2016-06-10 15:58:23.0192 main...........                   } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0192 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.zipDirectory()
+2016-06-10 15:58:23.0193 main...........               } com.ibm.broker.config.appdev.BARInternalZip.handleContent()
+2016-06-10 15:58:23.0193 main...........               { com.ibm.broker.config.appdev.BARUtil.zipEntryExists(java.util.zip.ZipOutputStream@2edd4d93, HttpToMQ-java, 
+2016-06-10 15:58:23.0194 main...........               } com.ibm.broker.config.appdev.BARUtil.zipEntryExists() false
+2016-06-10 15:58:23.0194 main...........               { com.ibm.broker.config.appdev.DotProject.parse(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java/.project, 
+2016-06-10 15:58:23.0194 main...........                 { com.ibm.broker.config.appdev.BARUtil.readFileAsString(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java/.project, 
+2016-06-10 15:58:23.0195 main...........                 } com.ibm.broker.config.appdev.BARUtil.readFileAsString() <?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HttpToMQ-java</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.java.builder.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.bar.ext.barbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.jcn.jcnbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>com.ibm.etools.mft.bar.ext.barnature</nature>
+		<nature>com.ibm.etools.mft.jcn.jcnnature</nature>
+	</natures>
+</projectDescription>
+
+2016-06-10 15:58:23.0248 main...........                 i: The .project file contains the nature: org.eclipse.jdt.core.javanature
+2016-06-10 15:58:23.0248 main...........                 i: The .project file contains the nature: org.eclipse.m2e.core.maven2Nature
+2016-06-10 15:58:23.0249 main...........                 i: The .project file contains the nature: com.ibm.etools.mft.bar.ext.barnature
+2016-06-10 15:58:23.0249 main...........                 i: The .project file contains the nature: com.ibm.etools.mft.jcn.jcnnature
+2016-06-10 15:58:23.0249 main...........               } com.ibm.broker.config.appdev.DotProject.parse()
+2016-06-10 15:58:23.0250 main...........               i: Include Java project dependency - /root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java
+2016-06-10 15:58:23.0250 main...........               { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, null, 
+2016-06-10 15:58:23.0251 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src, 
+2016-06-10 15:58:23.0251 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main, 
+2016-06-10 15:58:23.0251 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/java, 
+2016-06-10 15:58:23.0252 main...........                       { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/java/com, 
+2016-06-10 15:58:23.0252 main...........                         { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/java/com/anz, 
+2016-06-10 15:58:23.0253 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/java/com/anz/HttpToMQ, 
+2016-06-10 15:58:23.0253 main...........                             { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/java/com/anz/HttpToMQ/compute, 
+2016-06-10 15:58:23.0253 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(RequestTransformCompute.java, 
+2016-06-10 15:58:23.0254 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0254 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(ResponseTransformCompute.java, 
+2016-06-10 15:58:23.0254 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0255 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(LoggingOutputCompute.java, 
+2016-06-10 15:58:23.0255 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0256 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(AddUserDefinedProperties.java, 
+2016-06-10 15:58:23.0256 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0256 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(FailureTransformCompute.java, 
+2016-06-10 15:58:23.0257 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0257 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(LoggingInputCompute.java, 
+2016-06-10 15:58:23.0257 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0258 main...........                             } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0258 main...........                             { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/java/com/anz/HttpToMQ/transform, 
+2016-06-10 15:58:23.0259 main...........                               { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/java/com/anz/HttpToMQ/transform/pojo, 
+2016-06-10 15:58:23.0259 main...........                                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(Result.java, 
+2016-06-10 15:58:23.0259 main...........                                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0260 main...........                                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(NumbersInput.java, 
+2016-06-10 15:58:23.0260 main...........                                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0261 main...........                                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.gitignore, 
+2016-06-10 15:58:23.0261 main...........                                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0261 main...........                               } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0262 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(PostTransformBLSample.java, 
+2016-06-10 15:58:23.0262 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0338 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(PreTransformBLSample.java, 
+2016-06-10 15:58:23.0338 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0338 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.gitignore, 
+2016-06-10 15:58:23.0338 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0338 main...........                             } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0338 main...........                             { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/java/com/anz/HttpToMQ/logging, 
+2016-06-10 15:58:23.0339 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(AppLogMask.java, 
+2016-06-10 15:58:23.0339 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0339 main...........                             } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0339 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0339 main...........                           { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.gitignore, 
+2016-06-10 15:58:23.0339 main...........                           } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0339 main...........                         } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0340 main...........                       } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0340 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0340 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/resources, 
+2016-06-10 15:58:23.0340 main...........                       { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.gitignore, 
+2016-06-10 15:58:23.0340 main...........                       } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0340 main...........                       { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/resources/com, 
+2016-06-10 15:58:23.0340 main...........                         { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/resources/com/anz, 
+2016-06-10 15:58:23.0341 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/resources/com/anz/HttpToMQ, 
+2016-06-10 15:58:23.0341 main...........                             { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/resources/com/anz/HttpToMQ/compute, 
+2016-06-10 15:58:23.0341 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(regex.json, 
+2016-06-10 15:58:23.0341 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2016-06-10 15:58:23.0341 main...........                               { com.ibm.broker.config.appdev.BARInternalZip.zipFile(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/main/resources/com/anz/HttpToMQ/compute/regex.json, 
+2016-06-10 15:58:23.0341 main...........                                 { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[src/main/resources/com/anz/HttpToMQ/compute/regex.json])
+2016-06-10 15:58:23.0341 main...........                                   { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2016-06-10 15:58:23.0342 main...........                                   } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0342 main...........                                   { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0342 main...........                                   } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0342 main...........                                 } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0342 main...........                                 { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'src/main/resources/com/anz/HttpToMQ/compute/regex.json'., 
+2016-06-10 15:58:23.0342 main...........                                 } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'src/main/resources/com/anz/HttpToMQ/compute/regex.json'.
+2016-06-10 15:58:23.0343 main...........                                 i: Include artifiact - src/main/resources/com/anz/HttpToMQ/compute/regex.json
+2016-06-10 15:58:23.0343 main...........                                 { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@51649e86, src/main/resources/com/anz/HttpToMQ/compute/regex.json, 
+2016-06-10 15:58:23.0343 main...........                                 } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2016-06-10 15:58:23.0343 main...........                                 { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[src/main/resources/com/anz/HttpToMQ/compute/regex.json])
+2016-06-10 15:58:23.0343 main...........                                   { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2016-06-10 15:58:23.0343 main...........                                   } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0343 main...........                                   { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0344 main...........                                   } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0344 main...........                                 } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0344 main...........                                 { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'src/main/resources/com/anz/HttpToMQ/compute/regex.json' to the BAR file., 
+2016-06-10 15:58:23.0344 main...........                                 } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'src/main/resources/com/anz/HttpToMQ/compute/regex.json' to the BAR file.
+2016-06-10 15:58:23.0344 main...........                                 { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.001])
+2016-06-10 15:58:23.0344 main...........                                   { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2016-06-10 15:58:23.0345 main...........                                   } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0345 main...........                                   { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0345 main...........                                   } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0345 main...........                                 } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0345 main...........                                 { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.001' second(s)., 
+2016-06-10 15:58:23.0345 main...........                                 } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.001' second(s).
+2016-06-10 15:58:23.0345 main...........                               } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2016-06-10 15:58:23.0346 main...........                             } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() true
+2016-06-10 15:58:23.0346 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0346 main...........                         } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0346 main...........                       } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0346 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0346 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0346 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/test, 
+2016-06-10 15:58:23.0346 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/test/java, 
+2016-06-10 15:58:23.0347 main...........                       { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/test/java/com, 
+2016-06-10 15:58:23.0347 main...........                         { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/test/java/com/anz, 
+2016-06-10 15:58:23.0347 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/test/java/com/anz/HttpToMQ, 
+2016-06-10 15:58:23.0347 main...........                             { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/test/java/com/anz/HttpToMQ/transform, 
+2016-06-10 15:58:23.0347 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(PostTransformBLSampleTest.java, 
+2016-06-10 15:58:23.0347 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0348 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(PreTransformBLSampleTest.java, 
+2016-06-10 15:58:23.0348 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0348 main...........                             } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0348 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0348 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/test/java/com/anz/HttptoMQ, 
+2016-06-10 15:58:23.0348 main...........                             { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/test/java/com/anz/HttptoMQ/logging, 
+2016-06-10 15:58:23.0348 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(LogMaskTest.java, 
+2016-06-10 15:58:23.0349 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0349 main...........                             } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0349 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0396 main...........                         } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0397 main...........                       } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0397 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0397 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, src/test/resources, 
+2016-06-10 15:58:23.0397 main...........                       { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.gitignore, 
+2016-06-10 15:58:23.0398 main...........                       } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0398 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0398 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0398 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0398 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.classpath, 
+2016-06-10 15:58:23.0399 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0399 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, .settings, 
+2016-06-10 15:58:23.0399 main...........                   { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.gitignore, 
+2016-06-10 15:58:23.0400 main...........                   } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0400 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0400 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.gitignore, 
+2016-06-10 15:58:23.0400 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0400 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.project, 
+2016-06-10 15:58:23.0400 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0401 main...........                 { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target, 
+2016-06-10 15:58:23.0401 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes, 
+2016-06-10 15:58:23.0401 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.gitignore, 
+2016-06-10 15:58:23.0401 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0401 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/com, 
+2016-06-10 15:58:23.0401 main...........                       { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/com/anz, 
+2016-06-10 15:58:23.0402 main...........                         { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/com/anz/HttpToMQ, 
+2016-06-10 15:58:23.0402 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/com/anz/HttpToMQ/compute, 
+2016-06-10 15:58:23.0402 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(regex.json, 
+2016-06-10 15:58:23.0402 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2016-06-10 15:58:23.0402 main...........                             { com.ibm.broker.config.appdev.BARInternalZip.zipFile(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/com/anz/HttpToMQ/compute/regex.json, 
+2016-06-10 15:58:23.0402 main...........                               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[target/classes/com/anz/HttpToMQ/compute/regex.json])
+2016-06-10 15:58:23.0402 main...........                                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2016-06-10 15:58:23.0403 main...........                                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0403 main...........                                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0403 main...........                                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0403 main...........                               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0403 main...........                               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'target/classes/com/anz/HttpToMQ/compute/regex.json'., 
+2016-06-10 15:58:23.0403 main...........                               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'target/classes/com/anz/HttpToMQ/compute/regex.json'.
+2016-06-10 15:58:23.0403 main...........                               i: Include artifiact - target/classes/com/anz/HttpToMQ/compute/regex.json
+2016-06-10 15:58:23.0404 main...........                               { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@51649e86, target/classes/com/anz/HttpToMQ/compute/regex.json, 
+2016-06-10 15:58:23.0404 main...........                               } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2016-06-10 15:58:23.0404 main...........                               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[target/classes/com/anz/HttpToMQ/compute/regex.json])
+2016-06-10 15:58:23.0404 main...........                                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2016-06-10 15:58:23.0404 main...........                                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0404 main...........                                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0405 main...........                                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0405 main...........                               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0405 main...........                               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'target/classes/com/anz/HttpToMQ/compute/regex.json' to the BAR file., 
+2016-06-10 15:58:23.0405 main...........                               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'target/classes/com/anz/HttpToMQ/compute/regex.json' to the BAR file.
+2016-06-10 15:58:23.0405 main...........                               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.002])
+2016-06-10 15:58:23.0405 main...........                                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2016-06-10 15:58:23.0405 main...........                                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0406 main...........                                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0406 main...........                                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0406 main...........                               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0406 main...........                               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.002' second(s)., 
+2016-06-10 15:58:23.0406 main...........                               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.002' second(s).
+2016-06-10 15:58:23.0406 main...........                             } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2016-06-10 15:58:23.0407 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(ResponseTransformCompute.class, 
+2016-06-10 15:58:23.0407 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0407 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(FailureTransformCompute.class, 
+2016-06-10 15:58:23.0407 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0408 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(LoggingInputCompute.class, 
+2016-06-10 15:58:23.0408 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0408 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(RequestTransformCompute.class, 
+2016-06-10 15:58:23.0408 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0409 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(LoggingOutputCompute.class, 
+2016-06-10 15:58:23.0409 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0409 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(AddUserDefinedProperties.class, 
+2016-06-10 15:58:23.0409 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0409 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() true
+2016-06-10 15:58:23.0410 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/com/anz/HttpToMQ/transform, 
+2016-06-10 15:58:23.0410 main...........                             { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/com/anz/HttpToMQ/transform/pojo, 
+2016-06-10 15:58:23.0421 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(NumbersInput.class, 
+2016-06-10 15:58:23.0422 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0422 main...........                               { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(Result.class, 
+2016-06-10 15:58:23.0422 main...........                               } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0422 main...........                             } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0422 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(PreTransformBLSample.class, 
+2016-06-10 15:58:23.0423 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0423 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(PostTransformBLSample.class, 
+2016-06-10 15:58:23.0423 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0423 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0423 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/com/anz/HttpToMQ/logging, 
+2016-06-10 15:58:23.0424 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(AppLogMask.class, 
+2016-06-10 15:58:23.0424 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0424 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0424 main...........                         } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0424 main...........                       } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0424 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0425 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/META-INF, 
+2016-06-10 15:58:23.0425 main...........                       { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/META-INF/org, 
+2016-06-10 15:58:23.0425 main...........                         { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/META-INF/org/apache, 
+2016-06-10 15:58:23.0427 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/META-INF/org/apache/logging, 
+2016-06-10 15:58:23.0427 main...........                             { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/META-INF/org/apache/logging/log4j, 
+2016-06-10 15:58:23.0427 main...........                               { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/META-INF/org/apache/logging/log4j/core, 
+2016-06-10 15:58:23.0429 main...........                                 { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/META-INF/org/apache/logging/log4j/core/config, 
+2016-06-10 15:58:23.0429 main...........                                   { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/classes/META-INF/org/apache/logging/log4j/core/config/plugins, 
+2016-06-10 15:58:23.0429 main...........                                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(Log4j2Plugins.dat, 
+2016-06-10 15:58:23.0429 main...........                                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0433 main...........                                   } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0433 main...........                                 } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0434 main...........                               } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0435 main...........                             } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0435 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0435 main...........                         } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0435 main...........                       } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0436 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0437 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0437 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/maven-status, 
+2016-06-10 15:58:23.0438 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/maven-status/maven-compiler-plugin, 
+2016-06-10 15:58:23.0439 main...........                       { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/maven-status/maven-compiler-plugin/compile, 
+2016-06-10 15:58:23.0439 main...........                         { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/maven-status/maven-compiler-plugin/compile/default-compile, 
+2016-06-10 15:58:23.0441 main...........                           { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(createdFiles.lst, 
+2016-06-10 15:58:23.0441 main...........                           } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0442 main...........                           { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(inputFiles.lst, 
+2016-06-10 15:58:23.0442 main...........                           } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0442 main...........                         } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0491 main...........                       } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0491 main...........                       { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/maven-status/maven-compiler-plugin/testCompile, 
+2016-06-10 15:58:23.0491 main...........                         { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/maven-status/maven-compiler-plugin/testCompile/default-testCompile, 
+2016-06-10 15:58:23.0492 main...........                           { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(createdFiles.lst, 
+2016-06-10 15:58:23.0492 main...........                           } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0492 main...........                           { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(inputFiles.lst, 
+2016-06-10 15:58:23.0492 main...........                           } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0492 main...........                         } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0492 main...........                       } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0493 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0493 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0493 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/test-classes, 
+2016-06-10 15:58:23.0493 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(.gitignore, 
+2016-06-10 15:58:23.0493 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0493 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/test-classes/com, 
+2016-06-10 15:58:23.0493 main...........                       { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/test-classes/com/anz, 
+2016-06-10 15:58:23.0494 main...........                         { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/test-classes/com/anz/HttpToMQ, 
+2016-06-10 15:58:23.0494 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/test-classes/com/anz/HttpToMQ/transform, 
+2016-06-10 15:58:23.0494 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(PreTransformBLSampleTest.class, 
+2016-06-10 15:58:23.0494 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0494 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(PostTransformBLSampleTest.class, 
+2016-06-10 15:58:23.0494 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0495 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0495 main...........                         } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0495 main...........                         { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/test-classes/com/anz/HttptoMQ, 
+2016-06-10 15:58:23.0495 main...........                           { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/test-classes/com/anz/HttptoMQ/logging, 
+2016-06-10 15:58:23.0495 main...........                             { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(LogMaskTest.class, 
+2016-06-10 15:58:23.0495 main...........                             } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0495 main...........                           } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0496 main...........                         } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0496 main...........                       } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0496 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0496 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0496 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/surefire-reports, 
+2016-06-10 15:58:23.0496 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(com.anz.HttpToMQ.transform.PreTransformBLSampleTest.txt, 
+2016-06-10 15:58:23.0497 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0497 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml, 
+2016-06-10 15:58:23.0497 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2016-06-10 15:58:23.0497 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.zipFile(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml, 
+2016-06-10 15:58:23.0497 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml])
+2016-06-10 15:58:23.0497 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2016-06-10 15:58:23.0498 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0498 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0498 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0498 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0498 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml'., 
+2016-06-10 15:58:23.0499 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml'.
+2016-06-10 15:58:23.0499 main...........                       i: Include artifiact - target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml
+2016-06-10 15:58:23.0499 main...........                       { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@51649e86, target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml, 
+2016-06-10 15:58:23.0499 main...........                       } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2016-06-10 15:58:23.0500 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml])
+2016-06-10 15:58:23.0500 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2016-06-10 15:58:23.0500 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0500 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0500 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0556 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0556 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml' to the BAR file., 
+2016-06-10 15:58:23.0557 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PreTransformBLSampleTest.xml' to the BAR file.
+2016-06-10 15:58:23.0557 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.058])
+2016-06-10 15:58:23.0557 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2016-06-10 15:58:23.0558 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0558 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0558 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0558 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0559 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.058' second(s)., 
+2016-06-10 15:58:23.0559 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.058' second(s).
+2016-06-10 15:58:23.0560 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2016-06-10 15:58:23.0560 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(com.anz.HttpToMQ.transform.PostTransformBLSampleTest.txt, 
+2016-06-10 15:58:23.0560 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0561 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml, 
+2016-06-10 15:58:23.0561 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2016-06-10 15:58:23.0591 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.zipFile(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml, 
+2016-06-10 15:58:23.0591 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml])
+2016-06-10 15:58:23.0591 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2016-06-10 15:58:23.0592 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0592 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0592 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0592 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0592 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml'., 
+2016-06-10 15:58:23.0592 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml'.
+2016-06-10 15:58:23.0593 main...........                       i: Include artifiact - target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml
+2016-06-10 15:58:23.0593 main...........                       { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@51649e86, target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml, 
+2016-06-10 15:58:23.0593 main...........                       } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2016-06-10 15:58:23.0593 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml])
+2016-06-10 15:58:23.0594 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2016-06-10 15:58:23.0594 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0594 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0594 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0594 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0594 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml' to the BAR file., 
+2016-06-10 15:58:23.0595 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'target/surefire-reports/TEST-com.anz.HttpToMQ.transform.PostTransformBLSampleTest.xml' to the BAR file.
+2016-06-10 15:58:23.0595 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.002])
+2016-06-10 15:58:23.0595 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2016-06-10 15:58:23.0595 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0595 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0595 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0596 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0596 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.002' second(s)., 
+2016-06-10 15:58:23.0596 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.002' second(s).
+2016-06-10 15:58:23.0596 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2016-06-10 15:58:23.0596 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(com.anz.HttptoMQ.logging.LogMaskTest.txt, 
+2016-06-10 15:58:23.0596 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0596 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml, 
+2016-06-10 15:58:23.0597 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2016-06-10 15:58:23.0597 main...........                     { com.ibm.broker.config.appdev.BARInternalZip.zipFile(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/surefire-reports/TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml, 
+2016-06-10 15:58:23.0597 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[target/surefire-reports/TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml])
+2016-06-10 15:58:23.0597 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2016-06-10 15:58:23.0597 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0598 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0599 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0599 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0600 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'target/surefire-reports/TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml'., 
+2016-06-10 15:58:23.0600 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'target/surefire-reports/TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml'.
+2016-06-10 15:58:23.0601 main...........                       i: Include artifiact - target/surefire-reports/TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml
+2016-06-10 15:58:23.0602 main...........                       { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@51649e86, target/surefire-reports/TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml, 
+2016-06-10 15:58:23.0602 main...........                       } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2016-06-10 15:58:23.0651 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[target/surefire-reports/TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml])
+2016-06-10 15:58:23.0651 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2016-06-10 15:58:23.0652 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0652 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0652 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0652 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0652 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'target/surefire-reports/TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml' to the BAR file., 
+2016-06-10 15:58:23.0652 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'target/surefire-reports/TEST-com.anz.HttptoMQ.logging.LogMaskTest.xml' to the BAR file.
+2016-06-10 15:58:23.0652 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.051])
+2016-06-10 15:58:23.0653 main...........                         { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2016-06-10 15:58:23.0653 main...........                         } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0653 main...........                         { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0653 main...........                         } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0653 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0653 main...........                       { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.051' second(s)., 
+2016-06-10 15:58:23.0653 main...........                       } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.051' second(s).
+2016-06-10 15:58:23.0654 main...........                     } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2016-06-10 15:58:23.0654 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() true
+2016-06-10 15:58:23.0654 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.includeDependency(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/maven-archiver, 
+2016-06-10 15:58:23.0654 main...........                     { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(pom.properties, 
+2016-06-10 15:58:23.0654 main...........                     } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0654 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0655 main...........                   { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(HttpToMQ-java-0.0.0.1-SNAPSHOT.jar, 
+2016-06-10 15:58:23.0655 main...........                   } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2016-06-10 15:58:23.0655 main...........                   { com.ibm.broker.config.appdev.BARInternalZip.zipFile(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-java, target/HttpToMQ-java-0.0.0.1-SNAPSHOT.jar, 
+2016-06-10 15:58:23.0655 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1852, inserts=[target/HttpToMQ-java-0.0.0.1-SNAPSHOT.jar])
+2016-06-10 15:58:23.0655 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1852)
+2016-06-10 15:58:23.0655 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0655 main...........                       { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0656 main...........                       } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0656 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0656 main...........                     { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1852I: Processing file 'target/HttpToMQ-java-0.0.0.1-SNAPSHOT.jar'., 
+2016-06-10 15:58:23.0656 main...........                     } com.ibm.broker.config.appdev.BARLog.removeMessageId() Processing file 'target/HttpToMQ-java-0.0.0.1-SNAPSHOT.jar'.
+2016-06-10 15:58:23.0656 main...........                     i: Include artifiact - target/HttpToMQ-java-0.0.0.1-SNAPSHOT.jar
+2016-06-10 15:58:23.0657 main...........                     { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@51649e86, target/HttpToMQ-java-0.0.0.1-SNAPSHOT.jar, 
+2016-06-10 15:58:23.0657 main...........                     } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2016-06-10 15:58:23.0657 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1859, inserts=[target/HttpToMQ-java-0.0.0.1-SNAPSHOT.jar])
+2016-06-10 15:58:23.0657 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1859)
+2016-06-10 15:58:23.0657 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0657 main...........                       { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0658 main...........                       } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0658 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0658 main...........                     { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1859I: Successfully added file 'target/HttpToMQ-java-0.0.0.1-SNAPSHOT.jar' to the BAR file., 
+2016-06-10 15:58:23.0658 main...........                     } com.ibm.broker.config.appdev.BARLog.removeMessageId() Successfully added file 'target/HttpToMQ-java-0.0.0.1-SNAPSHOT.jar' to the BAR file.
+2016-06-10 15:58:23.0658 main...........                     { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.002])
+2016-06-10 15:58:23.0658 main...........                       { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2016-06-10 15:58:23.0658 main...........                       } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0659 main...........                       { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0659 main...........                       } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0659 main...........                     } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0659 main...........                     { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.002' second(s)., 
+2016-06-10 15:58:23.0659 main...........                     } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.002' second(s).
+2016-06-10 15:58:23.0659 main...........                   } com.ibm.broker.config.appdev.BARInternalZip.zipFile()
+2016-06-10 15:58:23.0659 main...........                 } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() true
+2016-06-10 15:58:23.0659 main...........                 { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(pom-xml-temp.txt, 
+2016-06-10 15:58:23.0660 main...........                 } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0660 main...........               } com.ibm.broker.config.appdev.BARInternalZip.includeDependency() false
+2016-06-10 15:58:23.0660 main...........               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1866, inserts=[HttpToMQ-java])
+2016-06-10 15:58:23.0660 main...........                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1866)
+2016-06-10 15:58:23.0660 main...........                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0660 main...........                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0660 main...........                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0661 main...........               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0661 main...........               { com.ibm.broker.config.appdev.BARUtil.zipEntryExists(java.util.zip.ZipOutputStream@2edd4d93, HttpToMQ-lib, 
+2016-06-10 15:58:23.0689 main...........               } com.ibm.broker.config.appdev.BARUtil.zipEntryExists() false
+2016-06-10 15:58:23.0690 main...........               { com.ibm.broker.config.appdev.DotProject.parse(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-lib/.project, 
+2016-06-10 15:58:23.0690 main...........                 { com.ibm.broker.config.appdev.BARUtil.readFileAsString(/root/git/HttpToMQ-parent/HttpToMQ-lib/../HttpToMQ-lib/.project, 
+2016-06-10 15:58:23.0690 main...........                 } com.ibm.broker.config.appdev.BARUtil.readFileAsString() <?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HttpToMQ-lib</name>
+	<comment></comment>
+	<projects>
+		<project>HttpToMQ-java</project>
+		<project>HttpToMQ-lib</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.ibm.etools.mft.applib.applibbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.applib.applibresourcevalidator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.policy.ui.PolicyBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.ui.editor.connectorServiceBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.ui.editor.connectorEventBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.uri.sharedlibbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.applib.mbprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.msg.validation.dfdl.mlibdfdlbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.adapters.adapterbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.sca.scabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.msg.validation.dfdl.mbprojectresourcesbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.esql.lang.esqllangbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.map.builder.mslmappingbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.msgflowxsltbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.flow.msgflowbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.decision.service.ui.decisionservicerulebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.pattern.capture.PatternBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.msg.validation.dfdl.dfdlqnamevalidator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.bar.ext.barbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.unittest.ui.TestCaseBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.json.builder.JSONBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.ibm.etools.msgbroker.tooling.libraryNature</nature>
+		<nature>com.ibm.etools.msgbroker.tooling.messageBrokerProjectNature</nature>
+		<nature>com.ibm.etools.msgbroker.tooling.sharedLibraryNature</nature>
+		<nature>com.ibm.etools.mft.bar.ext.barnature</nature>
+	</natures>
+</projectDescription>
+
+2016-06-10 15:58:23.0698 main...........                 i: The .project file contains the nature: com.ibm.etools.msgbroker.tooling.libraryNature
+2016-06-10 15:58:23.0698 main...........                 i: The .project file contains the nature: com.ibm.etools.msgbroker.tooling.messageBrokerProjectNature
+2016-06-10 15:58:23.0698 main...........                 i: The .project file contains the nature: com.ibm.etools.msgbroker.tooling.sharedLibraryNature
+2016-06-10 15:58:23.0699 main...........                 i: The .project file contains the nature: com.ibm.etools.mft.bar.ext.barnature
+2016-06-10 15:58:23.0699 main...........               } com.ibm.broker.config.appdev.DotProject.parse()
+2016-06-10 15:58:23.0699 main...........               { com.ibm.broker.config.appdev.BARInternalZip.save()
+2016-06-10 15:58:23.0700 main...........                 { com.ibm.broker.config.appdev.BARUtil.addZipEntry(java.util.zip.ZipOutputStream@2edd4d93, HttpToMQ-lib, 
+2016-06-10 15:58:23.0700 main...........                 } com.ibm.broker.config.appdev.BARUtil.addZipEntry()
+2016-06-10 15:58:23.0700 main...........               } com.ibm.broker.config.appdev.BARInternalZip.save() true
+2016-06-10 15:58:23.0700 main...........               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1871, inserts=[HttpToMQ-lib.shlibzip])
+2016-06-10 15:58:23.0701 main...........                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1871)
+2016-06-10 15:58:23.0701 main...........                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0701 main...........                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0701 main...........                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0701 main...........               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0701 main...........               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1871I: Shared library file 'HttpToMQ-lib.shlibzip' successfully added to the BAR file., 
+2016-06-10 15:58:23.0702 main...........               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Shared library file 'HttpToMQ-lib.shlibzip' successfully added to the BAR file.
+2016-06-10 15:58:23.0702 main...........               { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1861, inserts=[0.608])
+2016-06-10 15:58:23.0702 main...........                 { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1861)
+2016-06-10 15:58:23.0702 main...........                 } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0702 main...........                 { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0702 main...........                 } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:23.0702 main...........               } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0703 main...........               { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1861I: Elapsed time: '0.608' second(s)., 
+2016-06-10 15:58:23.0703 main...........               } com.ibm.broker.config.appdev.BARLog.removeMessageId() Elapsed time: '0.608' second(s).
+2016-06-10 15:58:23.0703 main...........             } com.ibm.broker.config.appdev.ShlibZip.Constructor()
+2016-06-10 15:58:23.0703 main...........           } com.ibm.broker.config.appdev.FlowRendererInternalBAR.zipDirectory()
+2016-06-10 15:58:23.0703 main...........           { com.ibm.broker.config.appdev.BARLog.toByteArray()
+2016-06-10 15:58:23.0703 main...........           } com.ibm.broker.config.appdev.BARLog.toByteArray() [B@1179395
+2016-06-10 15:58:23.0704 main...........           { com.ibm.broker.config.appdev.BARLog.toByteArray()
+2016-06-10 15:58:23.0704 main...........           } com.ibm.broker.config.appdev.BARLog.toByteArray() [B@8447a7d2
+2016-06-10 15:58:23.0704 main...........         } com.ibm.broker.config.appdev.FlowRendererInternalBAR.toByteArray() [B@5cd80915
+2016-06-10 15:58:23.0704 main...........       } com.ibm.broker.config.appdev.FlowRendererInternalBAR.toInputStream() java.io.ByteArrayInputStream@feb313f2
+2016-06-10 15:58:23.0705 main...........       { com.ibm.broker.config.appdev.BARUtil.setIncludeAllArtifacts(false, 
+2016-06-10 15:58:23.0705 main...........       } com.ibm.broker.config.appdev.BARUtil.setIncludeAllArtifacts()
+2016-06-10 15:58:23.0706 main...........       { com.ibm.broker.config.appdev.BARUtil.isFlow(HttpToMQ-lib.shlibzip, 
+2016-06-10 15:58:23.0706 main...........       } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0706 main...........       { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(HttpToMQ-lib.shlibzip, 
+2016-06-10 15:58:23.0706 main...........       } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() false
+2016-06-10 15:58:23.0710 main...........       { com.ibm.broker.config.appdev.BARUtil.isSupportedZip(HttpToMQ-lib.shlibzip, 
+2016-06-10 15:58:23.0710 main...........       } com.ibm.broker.config.appdev.BARUtil.isSupportedZip() true
+2016-06-10 15:58:23.0713 main...........       { com.ibm.broker.config.appdev.BARUtil.isFlow(   library.descriptor, 
+2016-06-10 15:58:23.0714 main...........       } com.ibm.broker.config.appdev.BARUtil.isFlow() false
+2016-06-10 15:58:23.0714 main...........       { com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact(   library.descriptor, 
+2016-06-10 15:58:23.0714 main...........       } com.ibm.broker.config.appdev.BARUtil.isSupportedArtifact() true
+2016-06-10 15:58:23.0715 main...........     } com.ibm.broker.config.appdev.FlowRendererInternalBAR.write()
+2016-06-10 15:58:23.0716 main...........   } com.ibm.broker.config.appdev.FlowRendererBAR.write()
+2016-06-10 15:58:23.0716 main...........   { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1863, inserts=null)
+2016-06-10 15:58:23.0716 main...........     { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1863)
+2016-06-10 15:58:23.0716 main...........     } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:23.0716 main...........   } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:23.0718 main........... } com.ibm.broker.config.appdev.CommandProcessor.packageBAR()
+2016-06-10 15:58:23.0718 main........... w: Warning: Logger null could not be instantiated with parameters null
+2016-06-10 15:58:26.0944 main........... { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1850, inserts=null)
+2016-06-10 15:58:26.0945 main...........   { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1850)
+2016-06-10 15:58:26.0945 main...........   } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:26.0946 main........... } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:26.0946 main........... { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1850I: Running command: mqsipackagebar, 
+2016-06-10 15:58:26.0946 main........... } com.ibm.broker.config.appdev.BARLog.removeMessageId() Running command: mqsipackagebar
+2016-06-10 15:58:26.0947 main........... { com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail(bipNumber=1851, inserts=[-a /root/git/HttpToMQ-parent/HttpToMQ-app/target/HttpToMQ-app-0.0.0.1-SNAPSHOT.bar -w /root/git/HttpToMQ-parent/HttpToMQ-app/.. -k HttpToMQ-app -v /root/git/HttpToMQ-parent/HttpToMQ-app/target/packagebartrace.txt])
+2016-06-10 15:58:26.0947 main...........   { com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue(bipNumber=1851)
+2016-06-10 15:58:26.0947 main...........   } com.ibm.broker.config.appdev.MessageUtil.getMessageFromCatalogue()
+2016-06-10 15:58:26.0948 main...........   { com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:26.0948 main...........   } com.ibm.broker.config.appdev.MessageUtil.insertInserts()
+2016-06-10 15:58:26.0949 main........... } com.ibm.broker.config.appdev.MessageUtil.getLocalisedMessageDetail()
+2016-06-10 15:58:26.0949 main........... { com.ibm.broker.config.appdev.BARLog.removeMessageId(BIP1851I: Command arguments: '-a /root/git/HttpToMQ-parent/HttpToMQ-app/target/HttpToMQ-app-0.0.0.1-SNAPSHOT.bar -w /root/git/HttpToMQ-parent/HttpToMQ-app/.. -k HttpToMQ-app -v /root/git/HttpToMQ-parent/HttpToMQ-app/target/packagebartrace.txt', 
+2016-06-10 15:58:26.0949 main........... } com.ibm.broker.config.appdev.BARLog.removeMessageId() Command arguments: '-a /root/git/HttpToMQ-parent/HttpToMQ-app/target/HttpToMQ-app-0.0.0.1-SNAPSHOT.bar -w /root/git/HttpToMQ-parent/HttpToMQ-app/.. -k HttpToMQ-app -v /root/git/HttpToMQ-parent/HttpToMQ-app/target/packagebartrace.txt'
